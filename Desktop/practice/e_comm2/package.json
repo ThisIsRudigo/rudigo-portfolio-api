@@ -1,0 +1,27 @@
+{
+  "name": "e-commerce",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prestart": "npm install",
+    "prerestart": "npm install",
+    "start": "node start"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cors": "^2.8.4",
+    "debug": "~2.6.3",
+    "express": "^4.15.4",
+    "mongoose": "latest",
+    "morgan": "~1.8.1",
+    "passport": "latest",
+    "passport-instagram-token": "^2.3.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "nodemailer": "latest",
+    "async": "latest",
+    "passport-local-mongoose": "latest",
+    "passport-facebook-token": "latest",
+    "passport-local": "latest"
+  }
+}
